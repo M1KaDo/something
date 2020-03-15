@@ -1,12 +1,69 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Web Page</title>
-        <link rel="stylesheet" href="style.css"/>
-     </head>
-     <body>
-         <h1 align="center">Welcome</h1>
-        <p>Name:</p>
-        <input value="Enter your name!"/>
-     </body>
-</html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="myicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Web Page</title>
+	
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body align="center">
+	<nav id="panel" align="center">
+		<ul>
+			<a href="index.html"><img id="mylogo" src="homeimage.png"  
+			onmouseover="this.src='homeimage0.png';" onmouseout="this.src='homeimage.png';"/></a>
+			<li><a class="menuelement" href="#">Home</a></li>
+			
+			<li class="menuelement1"><a href="#">Products</a>
+				<ul class="dropdownmenu1">
+					<li onclick=""><a href="">Product1</a></li>
+					<li onclick=""><a href="">Product2</a></li>
+					<li onclick=""><a href="">Product3</a></li>
+					<li onclick=""><a href="">Product4</a></li>
+					<li onclick=""><a href="">Product5</a></li>
+					<li class="pr6" onclick=""><a href="">Product6</a>
+						<ul class="dropdownmenu2">
+							<li onclick=""><a href="">Element1</a></li>
+							<li onclick=""><a href="">Element2</a></li>
+							<li onclick=""><a href="">Element3</a></li>
+							<li onclick=""><a href="">Element4</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+				
+			<li><a class="menuelement" href="#">Online</a></li>
+			<li><a class="menuelement" href="#">About</a></li>
+		</ul>
+	</nav>
+	<main>
+		
+		<div id="mywatch"><p id="clock"></p></div>
+
+		<p>Name:</p>
+		<input class="data_input" id="name_input" type="text" value="Enter your name!"/>
+
+		<p>Age:</p>
+		<input class="data_input" id="age_input" type="text" value="Enter your age!"/>
+
+		<input id="submit_button" type="button" value="Enter"/>
+		<table id="data_table">
+            <tr><th>Number</th><th>Name</th><th>Age</th></tr>
+        </table>
+
+	</main>
+	<footer>
+		<p>&copy M ********* 2018</p>
+		<p>Address</p>
+		<p>NaN</p>
+	</footer>
+	
+	<script src="myscript.js"></script>
+</body>
+</html>	

@@ -1,4 +1,139 @@
 html{
-    background-color: black;
-    color: white;
+	
+}
+body{
+	height: 110%;
+	margin:  auto;
+	background-color: white;
+}
+main{
+	background-color: white;
+
+	width: 100%;
+	
+}
+#panel{
+	margin-top: 5px;
+	background-color: black;
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+	color: white;
+	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+#panel ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 90px;
+	padding: 7px;
+}
+
+#panel ul {
+	margin-top: 4px;
+}
+.menuelement{
+	text-decoration: none;
+	color: white;
+}
+.menuelement1{
+	
+	text-decoration: none;
+	color: white;
+}
+.menuelement1 a{
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	color: gray;
+}
+#mylogo{
+	vertical-align: middle;
+	margin-bottom: 3px;
+	height: 26px;
+	width: 26px;
+}
+.dropdownmenu1{
+	display: none;
+	margin-top: 12px;
+	list-style-type: none;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 110px;
+	top: 41px;
+	background-color: red;
+}
+.dropdownmenu2{
+	display: none;
+	margin-top: 12px;
+	list-style-type: none;
+	padding-bottom: 20px;
+	position: absolute;
+	margin-left: 13px;
+	padding-top: 10px;
+	top: 190px;
+	width: 110px;
+	background-color: blue;
+}
+.dropdownmenu1 a{
+	color: white;
+	position: relative;
+	left: -117px;
+	top: 5px;
+}
+.dropdownmenu1 li{
+	width: 0px;
+}
+.dropdownmenu2 li{
+	width: 0px;
+}
+.dropdownmenu1 a:hover{
+	color: gray;
+
+}
+.menuelement1:hover .dropdownmenu1{
+	display: block;
+}
+.pr6:hover .dropdownmenu2{
+	display: block;
+}
+
+
+#mywatch{
+	background-color: #303030;
+	width: 220px;
+	
+}
+#mywatch p{
+	color: white;
+	font-size: 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+#data_table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: stcenter;
+}
+
+th{
+    background-color: lightslategray;
+}
+
+footer{
+	position: absolute;
+	bottom: -11%;
+	width: 100%;
+	background-color: #151515;
+	color: white;
+	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
 }
