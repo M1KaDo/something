@@ -1,6 +1,5 @@
-html{
-	
-}
+
+
 body{
 	height: 110%;
 	margin:  auto;
@@ -129,9 +128,10 @@ th{
 }
 
 footer{
-	position: absolute;
-	bottom: -11%;
-	width: 100%;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
 	background-color: #151515;
 	color: white;
 	font-size: 17px;
