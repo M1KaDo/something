@@ -99,15 +99,24 @@ li a:hover{
 	display: block;
 }
 
+#top_line{
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+}
+
 
 #mywatch{
 	background-color: #303030;
-	width: 220px;
-	
+	position: fixed;
+	right: 0;
 }
 #mywatch p{
 	color: white;
+	padding: 0 10px;
 	font-size: 30px;
+	margin: 0;
 	font-family: 'Titillium Web', sans-serif;
 }
 
