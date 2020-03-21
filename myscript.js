@@ -40,7 +40,7 @@ $(function() {
     
     
   
-    $("#top_line").html("Welcome! More Features Coming Soon!");
+    $(".running_line").html("Welcome! More Features Coming Soon!");
   
 
 

@@ -5,12 +5,8 @@ body{
 	margin:  auto;
 	background-color: white;
 }
-main{
-	background-color: white;
+/* Start of Panel */
 
-	width: 100%;
-	
-}
 #panel{
 	margin-top: 5px;
 	background-color: black;
@@ -99,12 +95,25 @@ li a:hover{
 	display: block;
 }
 
-#top_line{
+/* End of Nav_Panel */
+
+/* Start of Main Content */
+
+main{
+
+	width: 100%;
+
+}
+
+
+.running_line{
 	width: 100%;
 	background-color: black;
 	opacity: 0.7;
 	color: white;
 }
+
+
 
 
 #mywatch{
@@ -136,6 +145,10 @@ th{
     background-color: lightslategray;
 }
 
+
+/* End of Main Content */
+
+/* Start of Footer */
 footer{
 	position: fixed;
   	left: 0;
