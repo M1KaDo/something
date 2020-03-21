@@ -57,12 +57,12 @@ function watch(){
 		if(hours < 10){
 			hours = "0" + hours;
 		}
-		document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " AM";
+        $("#clock").html(hours + ":" + minutes + ":" + seconds + " AM");
 	}
 	if(hours > 12 && hours <=23){
 		hours -= 12;
-		if(hours < 10) hours = "0" + hours;
-	document.getElementById("clock").innerHTML = hours + ":" + minutes + ":" + seconds + " PM";
+		if(hours < 10) hours = "0" + hours;  
+    $("#clock").html(hours + ":" + minutes + ":" + seconds + " PM");
 	}
 	setTimeout("watch()",1000);
 }

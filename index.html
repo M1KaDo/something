@@ -12,12 +12,37 @@
     <title>Web Page</title>
 	
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="nav.css"/>
   </head>
   <body align="center">
-	<nav id="panel" align="center">
+	<nav class="navbar">
 		<ul>
 			<a href="index.html"><img id="mylogo" src="homeimage.png"  
-			onmouseover="this.src='homeimage0.png';" onmouseout="this.src='homeimage.png';"/></a>
+				onmouseover="this.src='homeimage0.png';" 
+				onmouseout="this.src='homeimage.png';"/>
+			</a>
+			<li><a class="active" href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+
+			<li class="dropdown">
+				<a href="#news" class="dropbtn">Dropdown</a>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+						<li><a href="#">Link 3</a></li>
+					</ul>
+				</div>
+			</li>
+
+
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+			<li id="mywatch"><p id="clock"></p></li>
+		</ul>
+			  
+
+		<!--
 			<li><a class="menuelement" href="#">Home</a></li>
 			
 			<li class="menuelement1"><a href="#">Products</a>
@@ -40,19 +65,25 @@
 				
 			<li><a class="menuelement" href="#">Online</a></li>
 			<li><a class="menuelement" href="#">About</a></li>
-		</ul>
+		-->
+		
 	</nav>
+
+	<marquee class="running_line" behavior="alternate"></marquee>
+	<!-- End of Nav! -->
 	<main>
-		<marquee class="running_line" behavior="alternate"></marquee>
+		<h1 class="printer_only">You Can't see this tag!<br>Only Printers Can!</h1>
+		
+		
 
-
-		<div id="mywatch"><p id="clock"></p></div>
+		<a href="https://m1kado.github.io/something/">Click Me!</a>
 
 		<p>Name:</p>
 		<input class="data_input" id="name_input" type="text" value="Enter your name!" autocomplete="off"/>
 
 		<p>Age:</p>
 		<input class="data_input" id="age_input" type="text" value="Enter your age!" autocomplete="off"/>
+		
 		
 
 		<input id="submit_button" type="button" value="Enter"/>
@@ -62,6 +93,11 @@
 
 	</main>
 	<marquee class="running_line" behavior="alternate"></marquee>
+
+	<!-- End of Main -->
+
+	
+
 	<footer>
 		<p>&copy M ********* 2018</p>
 		<p>Contact</p>

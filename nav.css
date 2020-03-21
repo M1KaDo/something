@@ -1,0 +1,193 @@
+/* Start of Panel */
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#mylogo{
+	vertical-align: middle;
+	height: 27px;
+	width: 27px;
+}
+
+#mywatch{
+	background-color: #303030;
+	position: fixed;
+	right: 0;
+}
+#mywatch p{
+	color: white;
+	padding: 10px 16px;
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.9;
+	filter: alpha(opacity=50);
+
+}
+ 
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+  
+
+ 
+.navbar li {
+	float: left;
+}
+  
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
+.navbar li a:hover {
+	background-color: #111;
+}
+
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+  
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+  
+.dropdown-content a:hover {
+	  background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+  
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+/*
+#panel{
+
+	background-color: black;
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+	color: white;
+	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
+	position: fixed;
+	width: 100%;
+	top: 5px;
+	overflow: hidden;
+}
+
+#panel ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 90px;
+	
+}
+
+
+.menuelement{
+	text-decoration: none;
+	color: white;
+}
+.menuelement1{
+	text-decoration: none;
+	color: white;
+}
+.menuelement1 a{
+	text-decoration: none;
+	color: white;
+}
+li a:hover{
+	color: gray;
+}
+
+.dropdownmenu1{
+	display: none;
+	margin-top: 12px;
+	list-style-type: none;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 110px;
+	top: 41px;
+	background-color: red;
+	
+}
+.dropdownmenu2{
+	display: none;
+	margin-top: 12px;
+	list-style-type: none;
+	padding-bottom: 20px;
+	position: absolute;
+	margin-left: 13px;
+	padding-top: 10px;
+	top: 190px;
+	width: 110px;
+	background-color: blue;
+}
+.dropdownmenu1 a{
+	color: white;
+	position: relative;
+	left: -117px;
+	top: 5px;
+}
+.dropdownmenu1 li{
+	width: 0px;
+}
+.dropdownmenu2 li{
+	width: 0px;
+}
+.dropdownmenu1 a:hover{
+	color: gray;
+
+}
+.menuelement1:hover .dropdownmenu1{
+	display: block;
+}
+.pr6:hover .dropdownmenu2{
+	display: block;
+}
+
+/* End of Nav_Panel */
